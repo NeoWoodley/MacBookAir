@@ -3,7 +3,7 @@ package Heap;
 public class MaxHeap<T extends Comparable> {
 	Node<T>[] Nodes;
 	private int numOfNode;
-	public Node<T> root;
+	private Node<T> root;
 
 	// 内部结点类
 	private class Node<T> {
@@ -73,7 +73,7 @@ public class MaxHeap<T extends Comparable> {
 //		this.root.element=
 	}
 
-	public void siftUp() {
+	private void siftUp() {
 		siftUp(this.numOfNode / 2);
 	}
 
@@ -149,10 +149,6 @@ public class MaxHeap<T extends Comparable> {
 	private Node<T> getNode(int index) {
 		return this.Nodes[index];
 	}
-
-//	private void print() {
-//
-//	}
 
 	private void print(int index) {
 		System.out.print(getNode(index));
