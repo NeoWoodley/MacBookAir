@@ -1,4 +1,4 @@
-package Layout.FlowPane;
+package Layout.Pane;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
@@ -14,7 +14,7 @@ import javafx.stage.Stage;
  * FlowPaneDemo
  * 所有控件的生成、属性设置都在这个Main入口类中
  */
-public class Main extends Application {
+public class FlowPaneDemo extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		FlowPane root = new FlowPane();
@@ -47,7 +47,7 @@ public class Main extends Application {
 		// Scene
 		Scene scene = new Scene(root, 550, 250);
 
-		primaryStage.setTitle("FlowPane Layout Demo");
+		primaryStage.setTitle("FlowPaneDemo Layout Demo");
 		primaryStage.setScene(scene);
 		primaryStage.show();  // zaistage上显示scene中的控件的顺序，就是按照root.getChildren()返回的list中控件的顺序来显示的
 	}
