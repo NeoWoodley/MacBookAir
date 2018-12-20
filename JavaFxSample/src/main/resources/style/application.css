@@ -1,0 +1,11 @@
+.textField {
+	-fx-font-size: 11pt;
+	-fx-text-fill: black;
+	-fx-opacity: 0.6;
+}
+
+.button {
+	-fx-font-size: 20pt;
+	-fx-text-fill: blue;
+	-fx-opacity: 0.3;
+}

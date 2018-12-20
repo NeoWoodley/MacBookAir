@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82fa4a00-d7f1-40ea-b3f8-5f93f68f5549" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Controller/ControllerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/FXML/FXMLDemo.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/ScrollPaneDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/ScrollPaneDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/ScrollPaneDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/ScrollPaneDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/TitledPaneDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/TitledPaneDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/myImage.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/MVC/controller/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Resource/myStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Button/ButtonCSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Button/ButtonEffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Button/ButtonListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Button/ButtonMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/CheckBox/CheckBoxDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ChoiceBox/ChoiceBoxAddData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ChoiceBox/ChoiceBoxCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ColorPicker/ColorPickerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/DatePicker/DatePickerDateCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/DatePicker/DatePickerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/DatePicker/DatePickerPrompt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/DatePicker/DatePickerSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/FileChooser/FileChooserDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/FileChooser/FileChooserDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Hyperlink/HyperlinkDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelDemoCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelMouseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelWrapText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Menu/MenuDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/PasswordField/PasswordFieldDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ProgressBar/ProgressBarChangeProgress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ProgressBar/ProgressBarDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ProgressIndicator/ProgressIndicatorChangeProgress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ProgressIndicator/ProgressIndicatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/RadioButton/RadioButtonEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/RadioButton/RadioButtonInToggleGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ScrollBar/ScrollBarDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/TextField/TextFieldBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/TextField/TextFieldContextMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/TextField/TextFieldReplaceText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ToggleButton/ToggleButtonEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxAppDemo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/Try.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/controller/ControllerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/model/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/style/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/view/FXMLDemo.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/.idea/dictionaries/neowoodley.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/JavaFxSample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/src/main/java/controller/ControllerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/src/main/java/model/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/src/main/resources/style/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/src/main/resources/view/FXMLDemo.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/.idea/dictionaries/neowoodley.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/.idea/libraries/mysql_connector_java_5_1_47_bin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/BaseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/DBConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/StaffDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/StaffDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/out/production/JavaFXDemo/Layout/Pane/BorderPaneDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/out/production/JavaFXDemo/Layout/Pane/BorderPaneDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/out/production/JavaFXDemo/Layout/Pane/GridPaneDemoSignIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/out/production/JavaFXDemo/Layout/Pane/GridPaneDemoSignIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/BorderPaneDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/BorderPaneDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/GridPaneDemoSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/GridPaneDemoSignIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Property/Bind/UserBindDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Property/Bind/UserBindDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxAppDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxAppDemo/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TestDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
+              <folding>
+                <element signature="method#start#0;class#TestDemo#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/classes/Main.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#242#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              <folding>
+                <element signature="e#60#61#0" expanded="true" />
+                <element signature="e#93#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestDemo.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="662" />
+    <option name="y" value="23" />
+    <option name="width" value="778" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544182970956" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestDemo">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="TestDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDemo" />
+      <module name="TestDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestDemo" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82fa4a00-d7f1-40ea-b3f8-5f93f68f5549" name="Default Changelist" comment="" />
+      <created>1544182366450</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544182366450</updated>
+      <workItem from="1544182371282" duration="563000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="563000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32902467" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32902467" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <element signature="e#60#61#0" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+          <folding>
+            <element signature="method#start#0;class#TestDemo#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TestDemo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>hamcrest-core-1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
