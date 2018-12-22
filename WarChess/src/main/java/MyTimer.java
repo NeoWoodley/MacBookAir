@@ -1,19 +1,19 @@
-public class WTimer {
+public class MyTimer {
 	private OnTimerListener onTimerListener;
 	private long pTime, lastTime, nowTime;
 	private boolean isRunning = false;
 
-	private WTimer(OnTimerListener onTimerListener) {
+	private MyTimer(OnTimerListener onTimerListener) {
 		this.onTimerListener = onTimerListener;
 	}
 
-	private WTimer(long pTime, OnTimerListener onTimerListener) {
+	private MyTimer(long pTime, OnTimerListener onTimerListener) {
 		this.pTime = pTime;
 		this.onTimerListener = onTimerListener;
 	}
 
-	public static WTimer createWTimer(long pTime, OnTimerListener onTimerListener) {
-		WTimer wTimer = new WTimer(pTime, onTimerListener);
+	public static MyTimer createWTimer(long pTime, OnTimerListener onTimerListener) {
+		MyTimer wTimer = new MyTimer(pTime, onTimerListener);
 		return wTimer;
 	}
 
@@ -40,6 +40,6 @@ public class WTimer {
 	}
 
 	public interface OnTimerListener {
-		void onTimerRunning(WTimer mTimer);
+		void onTimerRunning(MyTimer mTimer);
 	}
 }

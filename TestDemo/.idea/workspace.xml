@@ -76,8 +76,16 @@
       <change afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/Staff.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/StaffDAO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/StaffDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/neowoodley.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/TestDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaFXApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXApplication/.idea/workspace.xml" afterDir="false" />
@@ -88,6 +96,7 @@
       <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/GridPaneDemoSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/GridPaneDemoSignIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Property/Bind/UserBindDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Property/Bind/UserBindDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaFxAppDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxAppDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxAppDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxAppDemo/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -101,37 +110,35 @@
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
-              <folding>
-                <element signature="method#start#0;class#TestDemo#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="260">
+              <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/target/classes/Main.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TestDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="180">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding>
-                <element signature="e#0#242#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestDemo.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            <state relative-caret-position="100">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#60#61#0" expanded="true" />
                 <element signature="e#93#94#0" expanded="true" />
@@ -157,6 +164,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestDemo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -219,12 +227,6 @@
               <item name="TestDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestDemo" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -238,13 +240,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544182970956" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544187695465" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -290,22 +292,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544182366450</updated>
-      <workItem from="1544182371282" duration="563000" />
+      <workItem from="1544182371282" duration="3405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="563000" />
+    <option name="totallyTimeSpent" value="3405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -313,7 +316,7 @@
       <window_info anchor="bottom" id="Statistic" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32902467" />
+      <window_info anchor="bottom" id="Messages" weight="0.32902467" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32902467" />
@@ -336,13 +339,19 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/target/classes/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#60#61#0" expanded="true" />
             <element signature="e#93#94#0" expanded="true" />
@@ -350,21 +359,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestDemo.java">
+    <entry file="file://$PROJECT_DIR$/TestDemo.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-          <folding>
-            <element signature="method#start#0;class#TestDemo#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="260">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/Main.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="180">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding>
-            <element signature="e#0#242#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

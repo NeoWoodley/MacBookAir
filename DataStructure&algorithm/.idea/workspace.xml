@@ -2,8 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f69becd-22c9-47a0-8148-9964febac996" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Heap/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/MaxHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heap/MaxHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/MaxHeapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphics/BetterArith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphics/CorrectArith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphics/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphics/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphics/TestCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphics/Try.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphics/WrongArith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphics/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarChess/src/main/java/PlayerCanvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBlock/src/main/java/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBlock/src/main/java/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBlock/src/main/java/BaseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBlock/src/main/java/BaseObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBlock/src/main/java/Brick.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBlock/src/main/java/Brick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBlock/src/main/java/BrickBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBlock/src/main/java/BrickBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBlock/src/main/java/GameScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBlock/src/main/java/GameScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBlock/src/main/java/LevelLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBlock/src/main/java/LevelLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BrickBlock/src/main/java/MainBrick.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BrickBlock/src/main/java/MainBrick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComputerOrganizationArchitecture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ComputerOrganizationArchitecture/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComputerOrganizationArchitecture/src/main/java/arith/integer/signed/SignedIntegerManger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ComputerOrganizationArchitecture/src/main/java/arith/integer/signed/SignedIntegerManger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComputerOrganizationArchitecture/target/classes/arith/integer/signed/SignedIntegerManger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ComputerOrganizationArchitecture/target/classes/arith/integer/signed/SignedIntegerManger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure&amp;algorithm/Heap/MaxHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure&amp;algorithm/Heap/MaxHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphics/FindAnyCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphics/FindAnyCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphics/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphics/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstAnimation/src/main/java/model/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstAnimation/src/main/java/model/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstAnimation/src/main/java/model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstAnimation/src/main/java/model/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstAnimation/src/main/java/model/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstAnimation/src/main/java/model/Sprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JBox2DDemo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JBox2DDemo/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JBox2DDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JBox2DDemo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JBox2DDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JBox2DDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JBox2DDemo/JBox2DDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JBox2DDemo/JBox2DDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JBox2DDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JBox2DDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXApplication/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXApplication/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXApplication/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXApplication/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXApplication/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXApplication/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/out/production/JavaFXDemo/Layout/Pane/BorderPaneDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/out/production/JavaFXDemo/Layout/Pane/BorderPaneDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/out/production/JavaFXDemo/Layout/Pane/GridPaneDemoSignIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/out/production/JavaFXDemo/Layout/Pane/GridPaneDemoSignIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Controller/ControllerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Controller/ControllerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/FXML/FXMLDemo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/FXML/FXMLDemo.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/BorderPaneDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/BorderPaneDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/GridPaneDemoSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/GridPaneDemoSignIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/ScrollPaneDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/ScrollPaneDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/ScrollPaneDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/ScrollPaneDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/ScrollPaneDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/ScrollPaneDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/ScrollPaneDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/ScrollPaneDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/TitledPaneDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/TitledPaneDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/TitledPaneDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/TitledPaneDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Property/Bind/UserBindDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Property/Bind/UserBindDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Button/ButtonCSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Button/ButtonCSS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Button/ButtonEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Button/ButtonEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Button/ButtonListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Button/ButtonListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Button/ButtonMouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Button/ButtonMouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/CheckBox/CheckBoxDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/CheckBox/CheckBoxDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ChoiceBox/ChoiceBoxAddData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ChoiceBox/ChoiceBoxAddData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ChoiceBox/ChoiceBoxCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ChoiceBox/ChoiceBoxCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ColorPicker/ColorPickerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ColorPicker/ColorPickerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/DatePicker/DatePickerDateCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/DatePicker/DatePickerDateCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/DatePicker/DatePickerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/DatePicker/DatePickerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/DatePicker/DatePickerPrompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/DatePicker/DatePickerPrompt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/DatePicker/DatePickerSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/DatePicker/DatePickerSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/FileChooser/FileChooserDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/FileChooser/FileChooserDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/FileChooser/FileChooserDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/FileChooser/FileChooserDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Hyperlink/HyperlinkDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Hyperlink/HyperlinkDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelDemoCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelDemoCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelMouseDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelMouseDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelWrapText.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelWrapText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Menu/MenuDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Menu/MenuDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/PasswordField/PasswordFieldDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/PasswordField/PasswordFieldDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ProgressBar/ProgressBarChangeProgress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ProgressBar/ProgressBarChangeProgress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ProgressBar/ProgressBarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ProgressBar/ProgressBarDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ProgressIndicator/ProgressIndicatorChangeProgress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ProgressIndicator/ProgressIndicatorChangeProgress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ProgressIndicator/ProgressIndicatorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ProgressIndicator/ProgressIndicatorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/RadioButton/RadioButtonEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/RadioButton/RadioButtonEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/RadioButton/RadioButtonInToggleGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/RadioButton/RadioButtonInToggleGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ScrollBar/ScrollBarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ScrollBar/ScrollBarDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/TextField/TextFieldBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/TextField/TextFieldBinding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/TextField/TextFieldContextMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/TextField/TextFieldContextMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/TextField/TextFieldReplaceText.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/TextField/TextFieldReplaceText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ToggleButton/ToggleButtonEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ToggleButton/ToggleButtonEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxAppDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxAppDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxAppDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxAppDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/Try.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/Try.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/controller/ControllerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/controller/ControllerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/model/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/style/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/style/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/view/FXMLDemo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/view/FXMLDemo.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxSample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxSample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxSample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxSample/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxSample/src/main/java/controller/ControllerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxSample/src/main/java/controller/ControllerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxSample/src/main/java/model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxSample/src/main/java/model/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxSample/src/main/resources/view/FXMLDemo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxSample/src/main/resources/view/FXMLDemo.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySQLConnect/src/main/java/BaseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/BaseDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySQLConnect/src/main/java/DBConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/DBConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySQLConnect/src/main/java/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySQLConnect/src/main/java/StaffDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/StaffDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySQLConnect/src/main/java/StaffDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/StaffDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondAnimation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondAnimation/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondAnimation/src/main/java/core/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondAnimation/src/main/java/core/MyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondAnimation/src/main/java/core/MySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondAnimation/src/main/java/core/MySystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondAnimation/src/main/java/core/component/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondAnimation/src/main/java/core/component/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondAnimation/src/main/java/core/component/MyTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondAnimation/src/main/java/core/component/MyTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondAnimation/src/main/java/core/screen/MyScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondAnimation/src/main/java/core/screen/MyScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondAnimation/src/test/java/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondAnimation/src/test/java/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondAnimation/src/test/java/test/Rect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondAnimation/src/test/java/test/Rect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondAnimation/src/test/java/test/TestScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondAnimation/src/test/java/test/TestScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestDemo/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestDemo/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestDemo/src/main/java/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestDemo/src/main/java/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarChess/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../WarChess/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarChess/src/main/java/ActionMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarChess/src/main/java/ActionMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarChess/src/main/java/BaseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarChess/src/main/java/BaseObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarChess/src/main/java/BasePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarChess/src/main/java/BasePlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarChess/src/main/java/GameMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarChess/src/main/java/GameMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarChess/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarChess/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarChess/src/main/java/MainCanvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarChess/src/main/java/MainCanvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarChess/src/main/java/MyTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarChess/src/main/java/MyTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarChess/src/main/java/PropertyMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarChess/src/main/java/PropertyMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarChess/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarChess/src/main/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarChess/src/main/java/TextObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WarChess/src/main/java/TextObject.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,79 +148,82 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="2130714400">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="3686" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="3686" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="6" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="DataStructure&amp;algorithm" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Heap/MaxHeap.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Graphics/FindAnyCycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+            <state relative-caret-position="87">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding>
-                <element signature="class#Node#0;class#MaxHeap#0" />
-                <element signature="method#createMaxHeap#0;class#MaxHeap#0" expanded="true" />
-                <element signature="docComment;method#delete#0;class#MaxHeap#0" />
-                <element signature="docComment;method#siftUp#1;class#MaxHeap#0" />
-                <element signature="method#siftUp#1;class#MaxHeap#0" expanded="true" />
-                <element signature="docComment;method#getBiggerChild#0;class#MaxHeap#0" />
-                <element signature="docComment;method#swap#0;class#MaxHeap#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#FindAnyCycle#0;class#FindAnyCycle#0" expanded="true" />
+                <element signature="method#findCycle#0;class#FindAnyCycle#0" expanded="true" />
+                <element signature="method#main#0;class#FindAnyCycle#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Heap/MaxHeapTest.java">
+        <entry file="file://$PROJECT_DIR$/src/Graphics/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="729">
+              <caret line="204" column="1" lean-forward="true" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
+              <folding>
+                <element signature="docComment;class#Graph#0" />
+                <element signature="docComment;field#visited#0;class#Graph#0" />
+                <element signature="method#Graph#0;class#Graph#0" expanded="true" />
+                <element signature="docComment;method#addEdge#0;class#Graph#0" />
+                <element signature="method#addEdge#0;class#Graph#0" expanded="true" />
+                <element signature="e#1202#1225#1" />
+                <element signature="e#1253#1276#1" />
+                <element signature="e#1506#1613#1" />
+                <element signature="e#1649#1731#1" />
+                <element signature="e#1768#1891#1" />
+                <element signature="e#1935#1997#1" />
+                <element signature="e#1969#1993#1" />
+                <element signature="docComment;method#DFS#0;class#Graph#0" />
+                <element signature="e#2301#2314#1" />
+                <element signature="e#2326#2345#1" />
+                <element signature="docComment;method#DFS#1;class#Graph#0" />
+                <element signature="e#2501#2514#1" />
+                <element signature="e#2526#2540#1" />
+                <element signature="docComment;method#firstVertex#0;class#Graph#0" />
+                <element signature="e#2595#2611#1" />
+                <element signature="e#2679#2692#1" />
+                <element signature="e#2708#2726#1" />
+                <element signature="docComment;method#nextVertex#0;class#Graph#0" />
+                <element signature="e#2978#2994#1" />
+                <element signature="e#3044#3057#1" />
+                <element signature="e#3069#3087#1" />
+                <element signature="e#2098#2215#1" />
+                <element signature="e#2143#2186#1" />
+                <element signature="e#2265#2310#1" />
+                <element signature="e#2376#2488#1" />
+                <element signature="e#2407#2459#1" />
+                <element signature="docComment;method#main#0;class#Graph#0" />
+                <element signature="method#main#0;class#Graph#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Graphics/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#setUp#0;class#MaxHeapTest#0" expanded="true" />
-                <element signature="method#tearDown#0;class#MaxHeapTest#0" expanded="true" />
-                <element signature="method#test1#0;class#MaxHeapTest#0" expanded="true" />
-                <element signature="method#test2#0;class#MaxHeapTest#0" expanded="true" />
-                <element signature="method#test3#0;class#MaxHeapTest#0" expanded="true" />
-                <element signature="method#test4#0;class#MaxHeapTest#0" expanded="true" />
-                <element signature="method#test5#0;class#MaxHeapTest#0" expanded="true" />
+                <element signature="method#addEdge#0;class#Main#0" expanded="true" />
+                <element signature="method#findCycle#0;class#Main#0" expanded="true" />
+                <element signature="method#isSameCycle#0;class#Main#0" expanded="true" />
+                <element signature="method#equalList#0;class#Main#0" expanded="true" />
+                <element signature="method#main#0;class#Main#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,9 +234,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -121,12 +246,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/One/Exercise4.java" />
-        <option value="$PROJECT_DIR$/src/One/Exercise1.java" />
-        <option value="$PROJECT_DIR$/src/One/Exercise2.java" />
-        <option value="$PROJECT_DIR$/src/One/Exercise3.java" />
-        <option value="$PROJECT_DIR$/src/One/Exercise5.java" />
-        <option value="$PROJECT_DIR$/src/One/ShiXiTi1.java" />
         <option value="$PROJECT_DIR$/src/Three/Exercise1.java" />
         <option value="$PROJECT_DIR$/src/Three/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/Three/Node.java" />
@@ -164,14 +283,22 @@
         <option value="$PROJECT_DIR$/src/BinaryTree/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/Heap/MaxHeapTest.java" />
         <option value="$PROJECT_DIR$/src/Heap/MaxHeap.java" />
+        <option value="$PROJECT_DIR$/src/Graphics/DFS.java" />
+        <option value="$PROJECT_DIR$/src/Graphics/FindCycle.java" />
+        <option value="$PROJECT_DIR$/src/Graphics/FindAnyCycle.java" />
+        <option value="$PROJECT_DIR$/src/Graphics/TestCycle.java" />
+        <option value="$PROJECT_DIR$/src/Graphics/test.java" />
+        <option value="$PROJECT_DIR$/src/Graphics/WrongAri.java" />
+        <option value="$PROJECT_DIR$/src/Graphics/WrongArith.java" />
+        <option value="$PROJECT_DIR$/src/Graphics/CorrectArith.java" />
+        <option value="$PROJECT_DIR$/src/Graphics/BetterArith.java" />
+        <option value="$PROJECT_DIR$/src/Graphics/Graph.java" />
+        <option value="$PROJECT_DIR$/src/Graphics/Homework.java" />
+        <option value="$PROJECT_DIR$/src/Graphics/Try.java" />
+        <option value="$PROJECT_DIR$/src/Graphics/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/Graphics/Main.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -179,11 +306,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="672" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="613" />
     <option name="y" value="23" />
-    <option name="width" value="608" />
-    <option name="height" value="777" />
+    <option name="width" value="827" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -192,6 +319,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,47 +336,23 @@
               <item name="DataStructure&amp;algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructure&amp;algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AVLTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure&amp;algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure&amp;algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure&amp;algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure&amp;algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Expression" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure&amp;algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure&amp;algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Heap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure&amp;algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure&amp;algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Three" type="462c0819:PsiDirectoryNode" />
+              <item name="Graphics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="toString&#9;PSI&#9;JAVA://Heap.MaxHeap.Node#toString&#10;keymap&#9;ACTION&#9;ChangeKeymap&#10;print&#9;PSI&#9;JAVA://BinaryTree.BinarySortTree#print&#10;LinkedList&#9;FILE&#9;jrt:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home!/java.base/java/util/LinkedList.class&#10;Linked&#9;FILE&#9;jrt:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home!/java.base/java/util/LinkedList.class&#10;KeyMap&#9;ACTION&#9;ChangeKeymap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542682546959" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545396016932" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -262,6 +366,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Graphics" />
       <recent name="Heap" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -280,14 +385,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MaxHeapTest">
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.BinaryTree" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="BetterArith" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphics.BetterArith" />
       <module name="DataStructure&amp;algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinaryTree.*" />
+          <option name="PATTERN" value="Graphics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,13 +400,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CenterToFront" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Expression.CenterToFront" />
+    <configuration name="CorrectArith" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphics.CorrectArith" />
       <module name="DataStructure&amp;algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Expression.*" />
+          <option name="PATTERN" value="Graphics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,13 +414,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.MaxHeap" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphics.Main" />
       <module name="DataStructure&amp;algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="Graphics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Try" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphics.Try" />
+      <module name="DataStructure&amp;algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graphics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,33 +448,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxHeapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure&amp;algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="Graphics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Heap" />
-      <option name="MAIN_CLASS_NAME" value="Heap.MaxHeapTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxHeapTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructure&amp;algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Heap" />
-      <option name="MAIN_CLASS_NAME" value="Heap.MaxHeapTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="Graphics" />
+      <option name="MAIN_CLASS_NAME" value="Graphics.MainTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -370,7 +473,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -380,19 +483,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CenterToFront" />
-      <item itemvalue="Application.BinaryTree" />
-      <item itemvalue="Application.MaxHeap" />
-      <item itemvalue="JUnit.MaxHeapTest.test1" />
-      <item itemvalue="JUnit.MaxHeapTest" />
+      <item itemvalue="Application.CorrectArith" />
+      <item itemvalue="Application.BetterArith" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Try" />
+      <item itemvalue="JUnit.MainTest.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MaxHeapTest" />
-        <item itemvalue="JUnit.MaxHeapTest.test1" />
-        <item itemvalue="Application.MaxHeap" />
-        <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.CenterToFront" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MainTest.test" />
+        <item itemvalue="Application.Try" />
+        <item itemvalue="Application.BetterArith" />
+        <item itemvalue="Application.CorrectArith" />
       </list>
     </recent_temporary>
   </component>
@@ -412,6 +515,10 @@
       <workItem from="1542638344752" duration="1488000" />
       <workItem from="1542642965102" duration="328000" />
       <workItem from="1542672461876" duration="8976000" />
+      <workItem from="1545188832887" duration="235000" />
+      <workItem from="1545208661992" duration="1189000" />
+      <workItem from="1545215705525" duration="10105000" />
+      <workItem from="1545373051799" duration="13566000" />
     </task>
     <servers />
   </component>
@@ -428,14 +535,27 @@
     <history-entry file="MaxHeapTest - 2018.11.20 at 10h 43m 22s.xml">
       <configuration name="MaxHeapTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MainTest_test - 2018.12.21 at 20h 09m 49s.xml">
+      <configuration name="MainTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_test - 2018.12.21 at 20h 10m 40s.xml">
+      <configuration name="MainTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_test - 2018.12.21 at 20h 11m 56s.xml">
+      <configuration name="MainTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_test - 2018.12.21 at 20h 12m 17s.xml">
+      <configuration name="MainTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13775000" />
+    <option name="totallyTimeSpent" value="38870000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="613" y="23" width="827" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14781906" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18454936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -444,17 +564,18 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32769832" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29027963" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28088427" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287841" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27171215" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32756326" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32756326" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32756326" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32754344" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3266745" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -463,7 +584,8 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32956383" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.32956383" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32904148" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.14781906" />
@@ -499,9 +621,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -691,6 +810,144 @@
           <line>27</line>
           <properties />
           <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/WrongArith.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/WrongArith.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/WrongArith.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/WrongArith.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/WrongArith.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/WrongArith.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/WrongArith.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/WrongArith.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/WrongArith.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/WrongArith.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/WrongArith.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/WrongArith.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/WrongArith.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/WrongArith.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/WrongArith.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/WrongArith.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/Main.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/Main.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/Main.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/Main.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/Main.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/Main.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphics/Main.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="134" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -961,9 +1218,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Heap/MaxHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+          <folding>
+            <element signature="class#Node#0;class#MaxHeap#0" />
+            <element signature="method#createMaxHeap#0;class#MaxHeap#0" expanded="true" />
+            <element signature="docComment;method#delete#0;class#MaxHeap#0" />
+            <element signature="docComment;method#siftUp#1;class#MaxHeap#0" />
+            <element signature="method#siftUp#1;class#MaxHeap#0" expanded="true" />
+            <element signature="docComment;method#getBiggerChild#0;class#MaxHeap#0" />
+            <element signature="docComment;method#swap#0;class#MaxHeap#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Heap/MaxHeapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="480">
           <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -978,18 +1251,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Heap/MaxHeap.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+        <state relative-caret-position="208">
+          <caret line="3636" selection-start-line="3636" selection-end-line="3636" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphics/FindAnyCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
-            <element signature="class#Node#0;class#MaxHeap#0" />
-            <element signature="method#createMaxHeap#0;class#MaxHeap#0" expanded="true" />
-            <element signature="docComment;method#delete#0;class#MaxHeap#0" />
-            <element signature="docComment;method#siftUp#1;class#MaxHeap#0" />
-            <element signature="method#siftUp#1;class#MaxHeap#0" expanded="true" />
-            <element signature="docComment;method#getBiggerChild#0;class#MaxHeap#0" />
-            <element signature="docComment;method#swap#0;class#MaxHeap#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#FindAnyCycle#0;class#FindAnyCycle#0" expanded="true" />
+            <element signature="method#findCycle#0;class#FindAnyCycle#0" expanded="true" />
+            <element signature="method#main#0;class#FindAnyCycle#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphics/TestCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="72" column="43" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="72" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#180#189#0" expanded="true" />
+            <element signature="method#TestCycle#0;class#TestCycle#0" expanded="true" />
+            <element signature="method#findCycle#0;class#TestCycle#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphics/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+          <folding>
+            <element signature="e#370#379#0" expanded="true" />
+            <element signature="method#main#0;class#test#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphics/WrongArith.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#491#500#0" expanded="true" />
+            <element signature="method#main#0;class#test#0;class#WrongArith#0" expanded="true" />
+            <element signature="method#findCycle#0;class#test#0;class#WrongArith#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphics/CorrectArith.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="e#493#502#0" expanded="true" />
+            <element signature="method#main#0;class#test#0;class#CorrectArith#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphics/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="204" column="1" lean-forward="true" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
+          <folding>
+            <element signature="docComment;class#Graph#0" />
+            <element signature="docComment;field#visited#0;class#Graph#0" />
+            <element signature="method#Graph#0;class#Graph#0" expanded="true" />
+            <element signature="docComment;method#addEdge#0;class#Graph#0" />
+            <element signature="method#addEdge#0;class#Graph#0" expanded="true" />
+            <element signature="e#1202#1225#1" />
+            <element signature="e#1253#1276#1" />
+            <element signature="e#1506#1613#1" />
+            <element signature="e#1649#1731#1" />
+            <element signature="e#1768#1891#1" />
+            <element signature="e#1935#1997#1" />
+            <element signature="e#1969#1993#1" />
+            <element signature="docComment;method#DFS#0;class#Graph#0" />
+            <element signature="e#2301#2314#1" />
+            <element signature="e#2326#2345#1" />
+            <element signature="docComment;method#DFS#1;class#Graph#0" />
+            <element signature="e#2501#2514#1" />
+            <element signature="e#2526#2540#1" />
+            <element signature="docComment;method#firstVertex#0;class#Graph#0" />
+            <element signature="e#2595#2611#1" />
+            <element signature="e#2679#2692#1" />
+            <element signature="e#2708#2726#1" />
+            <element signature="docComment;method#nextVertex#0;class#Graph#0" />
+            <element signature="e#2978#2994#1" />
+            <element signature="e#3044#3057#1" />
+            <element signature="e#3069#3087#1" />
+            <element signature="e#2098#2215#1" />
+            <element signature="e#2143#2186#1" />
+            <element signature="e#2265#2310#1" />
+            <element signature="e#2376#2488#1" />
+            <element signature="e#2407#2459#1" />
+            <element signature="docComment;method#main#0;class#Graph#0" />
+            <element signature="method#main#0;class#Graph#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphics/BetterArith.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphics/Try.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="method#swap#0;class#Try#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphics/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#MainTest#0" expanded="true" />
+            <element signature="method#test#0;class#MainTest#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="3106" selection-start-line="3106" selection-end-line="3106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphics/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addEdge#0;class#Main#0" expanded="true" />
+            <element signature="method#findCycle#0;class#Main#0" expanded="true" />
+            <element signature="method#isSameCycle#0;class#Main#0" expanded="true" />
+            <element signature="method#equalList#0;class#Main#0" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="true" />
           </folding>
         </state>
       </provider>

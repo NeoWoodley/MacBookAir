@@ -1,4 +1,4 @@
-package UI.ProgressBar;
+package UI.ProgressIndicator;
 
 import javafx.application.Application;
 import javafx.scene.Group;

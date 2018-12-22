@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e189a4e9-d0ca-4c61-bbb9-c4207bb38d73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FirstAnimation/.idea/dictionaries/neowoodley.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstAnimation/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstAnimation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstAnimation/src/main/java/model/GamePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstAnimation/src/main/java/model/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstAnimation/src/main/java/model/Sprite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstAnimation/src/main/resources/picture/精灵1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Controller/ControllerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/FXML/FXMLDemo.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/ScrollPaneDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/ScrollPaneDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/ScrollPaneDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/ScrollPaneDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/TitledPaneDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/TitledPaneDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/myImage.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/MVC/controller/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Resource/myStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Button/ButtonCSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Button/ButtonEffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Button/ButtonListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Button/ButtonMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/CheckBox/CheckBoxDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ChoiceBox/ChoiceBoxAddData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ChoiceBox/ChoiceBoxCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ColorPicker/ColorPickerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/DatePicker/DatePickerDateCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/DatePicker/DatePickerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/DatePicker/DatePickerPrompt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/DatePicker/DatePickerSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/FileChooser/FileChooserDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/FileChooser/FileChooserDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Hyperlink/HyperlinkDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelDemoCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelMouseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Label/LabelWrapText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/Menu/MenuDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/PasswordField/PasswordFieldDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ProgressBar/ProgressBarChangeProgress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ProgressBar/ProgressBarDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ProgressIndicator/ProgressIndicatorChangeProgress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ProgressIndicator/ProgressIndicatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/RadioButton/RadioButtonEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/RadioButton/RadioButtonInToggleGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ScrollBar/ScrollBarDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/TextField/TextFieldBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/TextField/TextFieldContextMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/TextField/TextFieldReplaceText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXDemo/src/UI/ToggleButton/ToggleButtonEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxAppDemo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/Try.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/controller/ControllerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/model/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/style/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/view/FXMLDemo.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/.idea/dictionaries/neowoodley.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/JavaFxSample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/src/main/java/controller/ControllerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/src/main/java/model/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/src/main/resources/style/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFxSample/src/main/resources/view/FXMLDemo.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/.idea/dictionaries/neowoodley.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/.idea/libraries/mysql_connector_java_5_1_47_bin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/BaseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/DBConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/StaffDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/StaffDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/neowoodley.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/MyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/MySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/component/MyObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/component/MyTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/screen/MyScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/Rect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/.idea/dictionaries/neowoodley.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/TestDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/src/main/java/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXApplication/.idea/ant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXApplication/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXApplication/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXApplication/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXApplication/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXApplication/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXApplication/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/out/production/JavaFXDemo/Layout/Pane/BorderPaneDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/out/production/JavaFXDemo/Layout/Pane/BorderPaneDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/out/production/JavaFXDemo/Layout/Pane/GridPaneDemoSignIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/out/production/JavaFXDemo/Layout/Pane/GridPaneDemoSignIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/BorderPaneDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/BorderPaneDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/GridPaneDemoSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/GridPaneDemoSignIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Property/Bind/UserBindDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Property/Bind/UserBindDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxAppDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxAppDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxAppDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxAppDemo/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/TestScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#TestScreen#0;class#TestScreen#0" expanded="true" />
+                <element signature="method#onKeyReleased#0;class#TestScreen#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="method#loadEnd#0;class#Main#0" expanded="true" />
+                <element signature="method#showStage#0;class#Main#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/Rect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="method#draw#0;class#Rect#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/core/System.java" />
+        <option value="$PROJECT_DIR$/src/main/java/component/Object.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/MyApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/Screen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/component/MyObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/screen/MyScreen.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/Rect.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/Main.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/test/TestScreen.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="662" />
+    <option name="y" value="23" />
+    <option name="width" value="778" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SecondAnimation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondAnimation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondAnimation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondAnimation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondAnimation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondAnimation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondAnimation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondAnimation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondAnimation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondAnimation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondAnimation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondAnimation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544285185635" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
+      <module name="SecondAnimation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e189a4e9-d0ca-4c61-bbb9-c4207bb38d73" name="Default Changelist" comment="" />
+      <created>1544281235631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544281235631</updated>
+      <workItem from="1544281240181" duration="3397000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3397000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="662" y="23" width="778" height="877" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287841" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="543" column="6" selection-start-line="543" selection-start-column="6" selection-end-line="543" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/screen.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#start#0;class#MyApplication#0" expanded="true" />
+            <element signature="method#showStage#0;class#MyApplication#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/component/MyTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/screen/MyScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#567#577#0" expanded="true" />
+            <element signature="method#WScreen#0;class#Screen#0" expanded="true" />
+            <element signature="method#initEvents#0;class#Screen#0" expanded="true" />
+            <element signature="e#744#862#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#907#1026#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="method#draw#0;class#Screen#0" expanded="true" />
+            <element signature="method#update#0;class#Screen#0" expanded="true" />
+            <element signature="method#initTimeLine#0;class#Screen#0" expanded="true" />
+            <element signature="e#2322#2467#0" expanded="true" />
+            <element signature="e#2466#2467#0" expanded="true" />
+            <element signature="e#2790#2791#0" expanded="true" />
+            <element signature="e#2877#2878#0" expanded="true" />
+            <element signature="e#2961#2962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/component/MyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="100" column="16" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#476#753#0" expanded="true" />
+            <element signature="e#756#977#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+            <element signature="e#1648#1649#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1711#1712#0" expanded="true" />
+            <element signature="e#1734#1735#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
+            <element signature="e#1792#1793#0" expanded="true" />
+            <element signature="e#1820#1821#0" expanded="true" />
+            <element signature="e#1864#1865#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+            <element signature="e#1937#1938#0" expanded="true" />
+            <element signature="e#1979#1980#0" expanded="true" />
+            <element signature="e#2008#2009#0" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+            <element signature="e#2086#2087#0" expanded="true" />
+            <element signature="e#2114#2115#0" expanded="true" />
+            <element signature="e#2156#2157#0" expanded="true" />
+            <element signature="e#2196#2197#0" expanded="true" />
+            <element signature="e#2224#2225#0" expanded="true" />
+            <element signature="e#2258#2259#0" expanded="true" />
+            <element signature="e#2290#2291#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+            <element signature="e#2358#2359#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
+            <element signature="e#2399#2689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/MySystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="40">
+            <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#TestScreen#0;class#TestScreen#0" expanded="true" />
+            <element signature="method#onKeyReleased#0;class#TestScreen#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/Rect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="method#draw#0;class#Rect#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="method#loadEnd#0;class#Main#0" expanded="true" />
+            <element signature="method#showStage#0;class#Main#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SecondAnimation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>hamcrest-core-1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

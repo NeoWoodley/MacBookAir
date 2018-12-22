@@ -53,6 +53,19 @@
       <change afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/model/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/style/application.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JavaFxAppDemo/src/main/java/view/FXMLDemo.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/neowoodley.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFxSample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ControllerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/style/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/FXMLDemo.fxml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MySQLConnect/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MySQLConnect/.idea/dictionaries/neowoodley.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MySQLConnect/.idea/libraries/mysql_connector_java_5_1_47_bin.xml" afterDir="false" />
@@ -63,7 +76,23 @@
       <change afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/Staff.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/StaffDAO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MySQLConnect/src/main/java/StaffDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/.idea/dictionaries/neowoodley.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/TestDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestDemo/src/main/java/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXApplication/.idea/ant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXApplication/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXApplication/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaFXApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXApplication/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXApplication/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXApplication/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXApplication/src/sample/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaFXDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaFXDemo/out/production/JavaFXDemo/Layout/Pane/BorderPaneDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/out/production/JavaFXDemo/Layout/Pane/BorderPaneDemo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaFXDemo/out/production/JavaFXDemo/Layout/Pane/GridPaneDemoSignIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/out/production/JavaFXDemo/Layout/Pane/GridPaneDemoSignIn.class" afterDir="false" />
@@ -71,6 +100,7 @@
       <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/GridPaneDemoSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Layout/Pane/GridPaneDemoSignIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaFXDemo/src/Property/Bind/UserBindDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXDemo/src/Property/Bind/UserBindDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaFxAppDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxAppDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFxAppDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFxAppDemo/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,20 +112,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="14" column="91" lean-forward="true" selection-start-line="14" selection-start-column="91" selection-end-line="14" selection-end-column="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/style/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/view/FXMLDemo.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="662" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/controller/ControllerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/style/application.css" />
+        <option value="$PROJECT_DIR$/src/main/java/view/FXMLDemo.fxml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/view/FXMLDemo.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="759" />
     <option name="y" value="23" />
-    <option name="width" value="778" />
+    <option name="width" value="681" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -131,6 +230,28 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaFxSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFxSample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaFxSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFxSample" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaFxSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFxSample" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaFxSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -140,12 +261,18 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544189033373" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,6 +286,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.Main" />
+      <module name="JavaFxSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -169,42 +316,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544181233446</updated>
-      <workItem from="1544181237369" duration="146000" />
+      <workItem from="1544181237369" duration="3804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146000" />
+    <option name="totallyTimeSpent" value="3804000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="662" y="23" width="778" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
       <window_info id="Designer" />
-      <window_info id="UI Designer" />
+      <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13161659" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Statistic" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.31139836" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287841" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32902467" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -214,12 +363,87 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/FXMLDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFxSample.iml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/view/FXMLDemo.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/style/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="14" column="91" lean-forward="true" selection-start-line="14" selection-start-column="91" selection-end-line="14" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -234,6 +458,18 @@
       <state key="JdkListConfigurable.UI">
         <settings>
           <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JavaFxSample</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

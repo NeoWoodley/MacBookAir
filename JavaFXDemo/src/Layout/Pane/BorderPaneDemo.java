@@ -40,6 +40,9 @@ public class BorderPaneDemo extends Application {
 		borderPane.setRight(buttonRight);
 		borderPane.setBottom(buttonBottom);
 
+		// 创建Group
+
+
 		// 创建Scene、设置Stage
 		Scene scene = new Scene(borderPane, 300, 200);
 		primaryStage.setScene(scene);

@@ -1,6 +1,7 @@
 package Layout.Pane;
 
 import javafx.application.Application;
+import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.VBox;
@@ -11,8 +12,10 @@ import javafx.stage.Stage;
 /**
  * 滚动窗口提供UI元素的可滚动视图。
  * 我们使用可滚动面板，当需要显示有限的空间大内容。可滚动窗格视口，其将显示内容的一部分，并且在必要时提供滚动条。
+ *
+ * ScrollPane不能直接放在Scene中
  */
-public class ScrollPaneDemo extends Application {
+public class ScrollPaneDemo1 extends Application {
 	public static void main(String[] args) {
 		launch(args);
 	}
@@ -52,8 +55,8 @@ public class ScrollPaneDemo extends Application {
 
 		// 创建Scene、设置Stage
 		Scene scene = new Scene(vBox);
-		primaryStage.setWidth(400);
-		primaryStage.setHeight(400);
+		primaryStage.setWidth(200);
+		primaryStage.setHeight(200);
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}

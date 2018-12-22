@@ -1,4 +1,4 @@
-package UI;
+package UI.PasswordField;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;

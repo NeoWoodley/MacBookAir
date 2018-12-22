@@ -1,3 +1,5 @@
+package core;
+
 public class MySystem {
 	public static int WIDTH = 800, HEIGHT = 600;
 

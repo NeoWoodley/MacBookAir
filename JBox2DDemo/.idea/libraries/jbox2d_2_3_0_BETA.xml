@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jbox2d-2.3.0-BETA">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../PhysicsEngine/jbox2d-2.3.0-BETA.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

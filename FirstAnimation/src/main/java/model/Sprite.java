@@ -1,8 +1,11 @@
+package model;
+
 import javafx.geometry.Rectangle2D;
+import javafx.scene.Parent;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
-public class Sprite {
+public class Sprite extends Parent {
 	private enum Direction {
 		Left, Right, Up, Down
 	};
@@ -33,7 +36,7 @@ public class Sprite {
 	 */
 	public void moveDown() {
 		direction = Direction.Down;
-		if(lastDirection != direction){
+		if (lastDirection != direction) {
 			index = 0;
 		}
 		index++;
@@ -52,7 +55,7 @@ public class Sprite {
 	 */
 	public void moveLeft() {
 		direction = Direction.Left;
-		if(lastDirection != direction){
+		if (lastDirection != direction) {
 			index = 3 * indexDiv;
 		}
 		index++;
@@ -71,7 +74,7 @@ public class Sprite {
 	 */
 	public void moveRight() {
 		direction = Direction.Right;
-		if(lastDirection != direction){
+		if (lastDirection != direction) {
 			index = 6 * indexDiv;
 		}
 		index++;
@@ -86,11 +89,11 @@ public class Sprite {
 	}
 
 	/**
-	 * 像右移动
+	 * 像上移动
 	 */
 	public void moveUp() {
 		direction = Direction.Up;
-		if(lastDirection != direction){
+		if (lastDirection != direction) {
 			index = 9 * indexDiv;
 		}
 		index++;
@@ -108,24 +111,31 @@ public class Sprite {
 	public int getX() {
 		return x;
 	}
+
 	public void setX(int x) {
 		this.x = x;
 	}
+
 	public int getY() {
 		return y;
 	}
+
 	public void setY(int y) {
 		this.y = y;
 	}
+
 	public int getWidth() {
 		return width;
 	}
+
 	public void setWidth(int width) {
 		this.width = width;
 	}
+
 	public int getHeight() {
 		return height;
 	}
+
 	public void setHeight(int height) {
 		this.height = height;
 	}

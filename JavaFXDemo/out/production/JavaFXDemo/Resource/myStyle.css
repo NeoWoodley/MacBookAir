@@ -1,0 +1,15 @@
+.toggle-button1 {
+    -fx-font: 30 arial;
+    -fx-base: green;
+}
+
+.toggle-button2 {
+    -fx-font: 25 arial;
+    -fx-base: blue;
+}
+
+.toggle-button3 {
+    -fx-font: 30 arial;
+    -fx-base: red;
+}
+

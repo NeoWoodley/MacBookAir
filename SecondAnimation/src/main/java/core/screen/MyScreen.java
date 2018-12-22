@@ -1,4 +1,6 @@
-import MyObject;
+package core.screen;
+
+import core.component.MyObject;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.event.ActionEvent;

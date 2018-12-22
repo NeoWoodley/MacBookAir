@@ -12,7 +12,6 @@ public class SignedIntegerManger {
 	private int presentBit1;  // 当前位
 	private int presentBit2;
 	private char[] result;  // 记录运算结果
-	int isPositive;  // 最后结果是否是正数
 	private boolean isOverflow;
 	private final String OVERFLOW = "Overflow";
 	private int lengthOfOperand;  // 记录操作数长度
@@ -20,18 +19,15 @@ public class SignedIntegerManger {
 	private char[] registerQ;  // 乘数-->乘法结果2；被除数-->商
 	private char[] registerM;  // 被乘数；除数
 	private char[] registerA;  // 乘法结果1；余数
+	// 标志位组
 	private int markQ;  // markQ-1标志位
 	private char signOfA;  // 记录被除数的符号
 	private char signOfB;  // 记录除数的符号
 	private char Qn='0';  // 用于暂存商，等到联合左移后，就把商寄存器的最低位置为Qn；初始化为'0'
-
 	// 两个操作数
 	private char[] A;  // 前一个操作数
 	private char[] B;  // 后一个操作数
-	private char[] complementOfOperand;  // 在乘法运算时，记录被乘数的补码值;在除法运算时，记录除数的补码值
-	// 循环计数器
-	@Deprecated
-	private int count;  // 这个变量可能不需要
+	private char[] complementOfoperand;  // 记录操作数的补码：在乘法运算时，记录被乘数的补码值;在除法运算时，记录除数的补码值
 
 	public String add(String num1, String num2) {
 		// 对两个成员变量：操作数赋值
@@ -46,9 +42,6 @@ public class SignedIntegerManger {
 		this.A = num1.toCharArray();
 		this.B = num2.toCharArray();
 		minus();
-//		this.A = num1.toCharArray();
-//		this.B = toComplement(num2.toCharArray());
-//		add();
 		return isOverflow ? OVERFLOW : String.valueOf(result);
 	}
 
@@ -57,6 +50,36 @@ public class SignedIntegerManger {
 		this.B = num2.toCharArray();
 		multiply();
 		return isOverflow ? OVERFLOW : String.valueOf(registerA) + String.valueOf(registerQ);
+	}
+
+	/**
+	 * 布斯算法
+	 * 最后结果保存在寄存器A、Q中
+	 */
+	private void multiply() {
+		align();
+		init();
+		initMultiply();
+
+		// sign=markQ-Qn-1（即寄存器Q的最低位）；markQ也即为Qn
+		// sign=-1，A=A-M
+		// sign=1，A=A+M
+		// sign=0，无操作
+		int sign;
+		for (int i = 0; i < lengthOfOperand; i++) {
+			sign = markQ - Integer.valueOf(String.valueOf(registerQ[lengthOfOperand - 1]));  // 或者通过减去'0'来进行char转int的操作
+			switch (sign) {
+				case -1:
+					minusRegisterM();
+					break;
+				case 1:
+					addRegisterM();
+					break;
+				default:
+					break;
+			}
+			shiftRightArithmeticRegister();
+		}
 	}
 
 	/**
@@ -69,6 +92,47 @@ public class SignedIntegerManger {
 		this.B = num2.toCharArray();
 		recoverDivide();
 		return isOverflow ? OVERFLOW : String.valueOf(registerA)+String.valueOf(registerQ);
+	}
+
+	private void recoverDivide() {
+		// 两个操作数长度对齐，进行符号扩展
+		align();
+		init();
+		// 初始化
+		initDivide();
+
+		char signOfRegisterA;  // 用于记录在寄存器A在加减寄存器M前，寄存器A中的值最初的符号
+		// 判断余数寄存器中的值是否足够大（根据余数、除数符号是否相同，来选择是做加法还是做减法来判断），即看寄存器A、M中的值
+		for (int i = 0; i < lengthOfOperand; i++) {
+			// 左移余数寄存器、商寄存器
+			shiftLeftArithmeticRegister();
+			signOfRegisterA = registerA[0];
+			if (registerA[0] == registerM[0]) {
+				minusRegisterM();
+				if (registerA[0] == signOfRegisterA) {
+					registerQ[lengthOfOperand - 1] = '1';
+				} else {
+					addRegisterM();  // 恢复
+					registerQ[lengthOfOperand - 1] = '0';
+				}
+			} else {
+				addRegisterM();
+				if (registerA[0] == signOfRegisterA) {
+					registerQ[lengthOfOperand - 1] = '1';
+				} else {
+					minusRegisterM();  // 恢复
+					registerQ[lengthOfOperand - 1]='0';
+				}
+			}
+		}
+		// 修正商的正负值
+		// 如果被除数和除数符号不同，就用商的补码取代计算出的商
+		// 若被除数与除数符号不同，商为负
+		// 若被除数与除数符号相同，商为正
+		// 余数的符号始终与被除数的符号保持一致
+		if (A[0] != B[0]) {
+			registerQ=toComplement(registerQ);
+		}
 	}
 
 	public String unrecoverDivide(String num1, String num2) {
@@ -155,14 +219,14 @@ public class SignedIntegerManger {
 	/**
 	 * 将寄存器A、Q左移，Q最低位补'0'
 	 */
-	 void shiftLeftArithmeticRegister() {
+	private void shiftLeftArithmeticRegister() {
 		String temp = String.valueOf(registerA) + String.valueOf(registerQ);
 		temp = temp.substring(1, temp.length()) + Qn;
 		registerA = temp.substring(0, lengthOfOperand).toCharArray();
 		registerQ = temp.substring(lengthOfOperand, 2 * lengthOfOperand).toCharArray();
 	}
 
-	private char[] add() {
+	private void add() {
 		align();
 		init();
 		for (int i = lengthOfOperand - 1; i >= 0; i--) {
@@ -177,81 +241,11 @@ public class SignedIntegerManger {
 			}
 		}
 		isOverflow();
-		return result;
 	}
 
-	private char[] minus() {
+	private void minus() {
 		B = toComplement(B);
-		return add();
-	}
-
-	/**
-	 * 最后结果保存在寄存器A、Q中
-	 */
-	private void multiply() {
-		align();
-		init();
-		initMultiply();
-
-		// sign=-1，A=A-M
-		// sign=1，A=A+M
-		// sign=0，无操作
-		int sign;
-		for (int i = 0; i < lengthOfOperand; i++) {
-			sign = markQ - Integer.valueOf(String.valueOf(registerQ[lengthOfOperand - 1]));  // 或者通过减去'0'来进行char转int的操作
-			switch (sign) {
-				case -1:
-					minusRegisterM();
-					break;
-				case 1:
-					addRegisterM();
-					break;
-				default:
-					break;
-			}
-			shiftRightArithmeticRegister();
-		}
-	}
-
-	private char[] recoverDivide() {
-		// 两个操作数长度对齐，进行符号扩展
-		align();
-		init();
-		// 初始化
-		initDivide();
-
-		char signOfRegisterA;  // 用于记录在寄存器A在加减寄存器M前，寄存器A中的值最初的符号
-		// 判断余数寄存器中的值是否足够大（根据余数、除数符号是否相同，来选择是做加法还是做减法来判断），即看寄存器A、M中的值
-		for (int i = 0; i < lengthOfOperand; i++) {
-			// 左移余数寄存器、商寄存器
-			shiftLeftArithmeticRegister();
-			signOfRegisterA = registerA[0];
-			if (registerA[0] == registerM[0]) {
-				minusRegisterM();
-				if (registerA[0] == signOfRegisterA) {
-					registerQ[lengthOfOperand - 1] = '1';
-				} else {
-					addRegisterM();  // 恢复
-					registerQ[lengthOfOperand - 1] = '0';
-				}
-			} else {
-				addRegisterM();
-				if (registerA[0] == signOfRegisterA) {
-					registerQ[lengthOfOperand - 1] = '1';
-				} else {
-					minusRegisterM();  // 恢复
-					registerQ[lengthOfOperand - 1]='0';
-				}
-			}
-		}
-		// 如果被除数和除数符号不同，就用商的补码取代计算出的商
-		// 若被除数与除数符号不同，商为负
-		// 若被除数与除数符号相同，商为正
-		// 余数的符号始终与被除数的符号保持一致
-		if (A[0] != B[0]) {
-			registerQ=toComplement(registerQ);
-		}
-		return null;
+		add();
 	}
 
 	private void align() {
@@ -351,7 +345,7 @@ public class SignedIntegerManger {
 		Arrays.fill(registerA, '0');  // 寄存器A赋初值为'0'
 		registerM = A;  // 寄存器M赋初值为被乘数
 		registerQ = B;  // 寄存器Q赋初值为乘数
-		complementOfOperand = toComplement(A);
+		complementOfoperand = toComplement(A);
 	}
 
 	/**
@@ -364,17 +358,9 @@ public class SignedIntegerManger {
 		Arrays.fill(registerA, A[0]);  // A寄存器（余数寄存器）初始化为被除数的符号位
 		registerM = B;  // 除数
 		registerQ = A;  // 被除数
-		complementOfOperand = toComplement(B);
+		complementOfoperand = toComplement(B);
 		signOfA = A[0];
 		signOfB = B[0];
-	}
-
-	@Deprecated
-	private void shiftRightArithmetic(char[] register) {
-		for (int i = register.length - 1; i > 0; i--) {
-			register[i] = register[i - 1];
-		}
-		register[0] = '0';
 	}
 
 	private void addRegisterM() {
@@ -399,47 +385,15 @@ public class SignedIntegerManger {
 		init();
 		for (int i = lengthOfOperand - 1; i >= 0; i--) {
 			presentBit1 = Integer.valueOf(String.valueOf(registerA[i]));
-			presentBit2 = Integer.valueOf(String.valueOf(complementOfOperand[i]));
+			presentBit2 = Integer.valueOf(String.valueOf(complementOfoperand[i]));  // 减去M=加上(-M)的补码
 			carry1 = presentBit1 & presentBit2 | presentBit1 & carry0 | presentBit2 & carry0;  // 逻辑与运算后，再求逻辑和
-			sum = presentBit1 ^ presentBit2 ^ carry0;
-			registerA[i] = Character.forDigit(sum, 10);
+			sum = presentBit1 ^ presentBit2 ^ carry0;  // 异或
+			registerA[i] = Character.forDigit(sum, 2);
 			// 为下一次运算做准备
 			if (i != 0) {
 				carry0 = carry1;
 			}
 		}
 //		return registerA;
-	}
-
-//	private void assignRegister() {
-//
-//	}
-
-	public char[] getRegisterA() {
-		return registerA;
-	}
-
-	public char[] getRegisterQ() {
-		return registerQ;
-	}
-
-	public int getMarkQ() {
-		return markQ;
-	}
-
-	public void setRegisterA(String num) {
-		registerA = num.toCharArray();
-	}
-
-	public void setRegisterQ(String num) {
-		registerQ = num.toCharArray();
-	}
-
-	public void setMarkQ(int num) {
-		markQ = num;
-	}
-
-	public void setLengthOfOperand(int length) {
-		lengthOfOperand = length;
 	}
 }

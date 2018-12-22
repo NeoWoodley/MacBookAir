@@ -26,7 +26,7 @@ public class UserBindDemo extends Application {
 
 		// 创建了两个UI控件，
 		// 一个用于使用Text控件显示用户名，
-		// 另一个是 PasswordField 字段控件，它将输入值绑定到域对象(User)中的 password 字段。
+		// 另一个是 PasswordFieldDemo 字段控件，它将输入值绑定到域对象(User)中的 password 字段。
 
 		// 创建Text，绑定userName
 		Text userName = new Text();
